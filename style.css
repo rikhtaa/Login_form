@@ -1,0 +1,113 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+}
+
+.balls{
+    position: absolute;
+    top: -10px;
+    z-index: 9;
+    z-index: 9;
+    background-color: #07060f;
+    width: 98.7vw;
+    height: 110vh;
+}
+
+.circle {
+    width: 190px;
+    height: 190px;
+    border: none;
+    border-radius: 50%;
+}
+.c1{
+    background: linear-gradient(180deg, #1d87d8, #1959bc);
+    margin-top: 2rem;
+    margin-left: 30%;   
+}
+.c2{
+    background: linear-gradient(130deg, #e85528, #ec8d19);
+    margin-top: 16rem;
+    margin-left: 56%;
+}
+.container{
+    position: relative;
+    width: 28%;
+    padding: 2rem;
+    margin: 0 auto;
+    margin-top: 6rem;
+    z-index: 1000;  
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(225, 225, 225, 0.1), rgba(225, 225,  225, 0));
+    backdrop-filter: blur(0px);
+    border:1px solid rgba(225, 225, 225, 0.18) ;
+    border-radius: 20px;
+    box-shadow: 0 25px 45px rgba(0, 0,  0, .2);  
+}
+.container .main{
+    padding: 3rem 0.5rem;
+}
+form{
+    display: flex;
+    flex-direction:column;
+}
+form input, .main_btn{
+    margin-bottom: 2.3rem;
+    line-height: 3;
+    border: transparent 2px solid;
+    border-radius: 4px;
+    background: #37363e;
+    color: #6f6f75;
+    transition: .3s all ease;
+}
+.main_btn:hover{
+   background: #37363e;
+   color: #fff;
+   cursor: pointer;
+}
+form input::placeholder{
+    padding:0 0.5rem ;
+    font-weight: 600;
+}
+form .main_btn{
+    background: #fff;
+    color: #37363e;
+    font-size: 0.9rem;
+    font-weight: 800;
+    margin: 1.4rem 0; 
+}
+form h2{
+    text-align: center;
+    margin-top: -2rem;
+    margin-bottom: 1.5rem;
+    color: #ffff;
+    font-weight: 600;
+}
+form h3{
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.btns{
+    margin-bottom: -2.5rem;
+}
+.btns button{
+    color: #fff;
+font-size: 1rem;
+font-weight: 600;
+padding: 0.5rem 2rem;
+background: linear-gradient(135deg, rgba(225, 225, 225, 0.1), rgba(225, 225,  225, 0));
+backdrop-filter: blur(10px);
+border:1px solid rgba(225, 225, 225, 0.18) ;
+border-radius: 4px;
+box-shadow: 0 25px 45px rgba(0, 0,  0, .2);
+} 
+.btns button:hover{
+    background: linear-gradient(180deg, #1d87d817, #195abcad);
+    cursor: pointer;
+}
