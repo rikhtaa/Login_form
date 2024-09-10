@@ -111,3 +111,34 @@ box-shadow: 0 25px 45px rgba(0, 0,  0, .2);
     background: linear-gradient(180deg, #1d87d817, #195abcad);
     cursor: pointer;
 }
+@media (max-width: 567px){
+    .balls{
+        padding-top: 36px;
+    }
+    .balls .circle{
+        width: 150px;
+        height: 150px;
+    }
+    .balls .c1{
+        margin-left: 3%;
+    }
+    .balls .c2{
+        margin-top: 20rem;
+        margin-left: 61%;
+    }
+    .container{
+    width:61%;
+    margin-top: 8rem;
+    }
+    .glass{
+        backdrop-filter: none;
+    }
+    .container .main {
+        padding: 3rem 0rem;
+    }
+    .btns button{
+        font-weight: 500;
+        backdrop-filter: none;
+        padding: 0.5rem 0.6rem;
+    }
+}
